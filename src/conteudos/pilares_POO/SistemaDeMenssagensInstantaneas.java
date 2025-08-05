@@ -1,12 +1,12 @@
 package conteudos.pilares_POO;
 
-public abstract class SistemaDeMenssagensInstanteneas {
+public abstract class SistemaDeMenssagensInstantaneas {
 
     public abstract void enviarMensagem();
 
     public abstract void receberMensagem();
 
-    
+
 
     // public void enviarMensagem() {
     //     if(validarConectadoInternet()){
