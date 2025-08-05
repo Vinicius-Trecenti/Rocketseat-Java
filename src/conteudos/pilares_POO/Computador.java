@@ -5,5 +5,9 @@ public class Computador {
         MSNMessager msn = new MSNMessager();
         msn.enviarMensagem();
         msn.receberMensagem();
+
+        WhatsApp whats = new WhatsApp();
+        whats.enviarMensagem();
+        whats.receberMensagem();
     }
 }

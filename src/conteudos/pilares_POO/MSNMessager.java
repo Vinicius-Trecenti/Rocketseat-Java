@@ -1,6 +1,6 @@
 package conteudos.pilares_POO;
 
-public class MSNMessager {
+public class MSNMessager extends SistemaDeMenssagensInstanteneas{
     public void enviarMensagem() {
         if(validarConectadoInternet()){
             System.out.println("Conectado à Internet!");
@@ -15,7 +15,6 @@ public class MSNMessager {
     }
 
     private boolean validarConectadoInternet() {
-        return false; // Simula que está conectado à Internet
+        return true; // Simula que está conectado à Internet
     }
-
 }
